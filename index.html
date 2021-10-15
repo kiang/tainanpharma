@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>統一獅X藥師 聯名紀念版口罩</title>
+        <meta property="og:title" content="統一獅X藥師 聯名紀念版口罩">
+        <meta property="og:description" content="統一獅X藥師 聯名紀念版口罩">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="img/og_image.png">
+
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/ol.css" type="text/css" rel="stylesheet">
+        <link href="css/ol3-sidebar.min.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <style>
+            body {
+                padding: 0;
+                margin: 0;
+                overflow: hidden;
+            }
+
+            html, body, #map {
+                height: 100%;
+                font: 10pt "Helvetica Neue", Arial, Helvetica, sans-serif;
+            }
+
+            .lorem {
+                font-style: italic;
+                color: #AAA;
+            }
+            .ui-front {
+                z-index: 9999;
+            }
+        </style>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DL2KWN773P"></script>
+        <script>
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+    dataLayer.push(arguments);
+}
+gtag('js', new Date());
+
+gtag('config', 'G-DL2KWN773P');
+        </script>
+    </head>
+    <body>
+        <div id="sidebar" class="sidebar collapsed">
+            <!-- Nav tabs -->
+            <div class="sidebar-tabs">
+                <ul role="tablist">
+                    <li><a href="#home" role="tab"><i class="fa fa-bars"></i></a></li>
+                    <li><a href="#book" role="tab"><i class="fa fa-book"></i></a></li>
+                    <li><a href="#settings" role="tab"><i class="fa fa-gear"></i></a></li>
+                </ul>
+            </div>
+
+            <!-- Tab panes -->
+            <div class="sidebar-content">
+                <div class="sidebar-pane" id="home">
+                    <h1 class="sidebar-header"><span id="sidebarTitle">請點選地圖中的點</span><span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+                    <div id="sidebarContent">請點選地圖中的點</div>
+                    <div class="float-right">程式開發： <a href="https://www.facebook.com/k.olc.tw/" target="_blank">江明宗</a></div>
+                </div>
+                <div class="sidebar-pane" id="book">
+                    <h1 class="sidebar-header"><span id="weekTitle">說明</span><span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+                    <div>
+
+                    </div>
+                </div>
+                <div class="sidebar-pane" id="settings">
+                    <h1 class="sidebar-header"><span id="weekTitle">設定</span><span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+                    <div>
+                        <a href="#" class="btn btn-primary btn-lg btn-block" id="btn-geolocation">回到目前位置</a>
+                        <p><hr /></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="map" class="sidebar-map"></div>
+        <script>
+            let baseUrl = 'https://tainanpharma.olc.tw';
+        </script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/ol.js"></script>
+        <script src="js/ol5-sidebar.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
